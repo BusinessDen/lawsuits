@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Colorado Business Lawsuits — BusinessDen</title>
+<meta name="robots" content="noindex, nofollow">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Sora:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --bg: #0d0d14;
+    --surface: rgba(255,255,255,0.032);
+    --surface-hover: rgba(255,255,255,0.06);
+    --cream: #f5f0e6;
+    --cream-dim: #e0d8cc;
+    --gold: #d4aa4f;
+    --gold-dim: rgba(212,170,79,0.55);
+    --gold-glow: rgba(212,170,79,0.08);
+    --text: #c8c0cc;
+    --text-dim: #9890a0;
+    --text-faint: #706878;
+    --border: rgba(255,255,255,0.07);
+    --border-hover: rgba(212,170,79,0.25);
+    --green: #34d399;
+    --green-bg: rgba(52,211,153,0.08);
+    --yellow: #fbbf24;
+    --yellow-bg: rgba(251,191,36,0.08);
+    --blue: #60a5fa;
+    --blue-bg: rgba(96,165,250,0.08);
+    --red: #f87171;
+    --red-bg: rgba(248,113,113,0.08);
+    --orange: #fb923c;
+    --orange-bg: rgba(251,146,60,0.08);
+  }
+
+  body {
+    background: var(--bg);
+    font-family: 'Sora', sans-serif;
+    color: var(--text);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Atmosphere */
+  .atmosphere { position: fixed; top: 0; left: 0; right: 0; bottom: 0; pointer-events: none; z-index: 0; overflow: hidden; }
+  .atmo-orb { position: absolute; border-radius: 50%; filter: blur(140px); opacity: 0.045; }
+  .atmo-1 { width: 600px; height: 600px; top: -200px; right: -100px; background: var(--gold); }
+  .atmo-2 { width: 400px; height: 400px; bottom: -150px; left: -80px; background: #3a2a7a; }
+  .grain {
+    position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+    pointer-events: none; z-index: 1; opacity: 0.02;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  .page {
+    position: relative; z-index: 2;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 32px 28px 100px;
+  }
+
+  /* Masthead */
+  .masthead {
+    text-align: center;
+    padding: 28px 0 24px;
+    animation: fadeUp 0.8s cubic-bezier(0.16,1,0.3,1);
+  }
+  .bd-credit {
+    font-size: 10px; letter-spacing: 5px; text-transform: uppercase;
+    color: var(--text-dim); margin-bottom: 14px; font-weight: 500;
+  }
+  .bd-credit a { color: var(--text-dim); text-decoration: none; }
+  .bd-credit a:hover { color: var(--gold); }
+  .masthead-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 56px; font-weight: 700; color: var(--cream);
+    line-height: 1; letter-spacing: -1.5px;
+  }
+  .masthead-tagline {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic; font-weight: 500; font-size: 17px;
+    color: var(--gold-dim); margin-top: 10px;
+  }
+  .diamond-sep {
+    display: flex; align-items: center; gap: 16px; margin: 24px 0;
+    animation: fadeUp 0.7s cubic-bezier(0.16,1,0.3,1) 0.1s both;
+  }
+  .diamond-sep .line { flex: 1; height: 1px; background: linear-gradient(90deg, transparent, var(--border), var(--gold-dim), var(--border), transparent); }
+  .diamond-sep .diamond { width: 6px; height: 6px; background: var(--gold); transform: rotate(45deg); opacity: 0.4; flex-shrink: 0; }
+
+  /* Stats row */
+  .stats-row {
+    display: grid; grid-template-columns: repeat(4, 1fr);
+    border: 1px solid var(--border); border-radius: 10px;
+    overflow: hidden; margin-bottom: 28px;
+    animation: fadeUp 0.7s cubic-bezier(0.16,1,0.3,1) 0.15s both;
+  }
+  .stat-cell {
+    padding: 16px 12px; text-align: center;
+    border-right: 1px solid var(--border);
+    background: var(--surface);
+  }
+  .stat-cell:last-child { border-right: none; }
+  .stat-label {
+    font-size: 9px; letter-spacing: 1.5px; text-transform: uppercase;
+    color: var(--text-dim); font-weight: 500; margin-bottom: 4px;
+  }
+  .stat-value {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 28px; font-weight: 700; color: var(--cream); line-height: 1;
+  }
+  .stat-sub {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px; color: var(--text-dim); margin-top: 3px;
+  }
+
+  /* Filters */
+  .filters {
+    display: flex; gap: 10px; flex-wrap: wrap; align-items: flex-end;
+    margin-bottom: 20px;
+    animation: fadeUp 0.7s cubic-bezier(0.16,1,0.3,1) 0.2s both;
+  }
+  .filter-group { flex: 1; min-width: 140px; }
+  .filter-group.search { flex: 2; min-width: 200px; }
+  .filter-label {
+    font-size: 9px; letter-spacing: 1.5px; text-transform: uppercase;
+    color: var(--text-dim); font-weight: 600; margin-bottom: 5px;
+  }
+  .filter-input, .filter-select {
+    width: 100%;
+    font-family: 'Sora', sans-serif; font-size: 12px;
+    padding: 8px 12px;
+    background: var(--surface); color: var(--cream);
+    border: 1px solid var(--border); border-radius: 6px;
+    outline: none; transition: border-color 0.2s;
+  }
+  .filter-input::placeholder { color: var(--text-faint); }
+  .filter-input:focus, .filter-select:focus { border-color: var(--border-hover); }
+  .filter-select option { background: #1a1a24; color: var(--cream); }
+
+  .score-btns { display: flex; gap: 0; overflow: hidden; border-radius: 6px; border: 1px solid var(--border); }
+  .score-btn {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px; padding: 8px 12px;
+    background: var(--surface); color: var(--text-dim);
+    border: none; border-right: 1px solid var(--border);
+    cursor: pointer; transition: all 0.2s;
+  }
+  .score-btn:last-child { border-right: none; }
+  .score-btn:hover { color: var(--cream-dim); background: rgba(255,255,255,0.04); }
+  .score-btn.active { color: var(--gold); background: var(--gold-glow); }
+
+  /* Section header */
+  .section-header {
+    font-size: 9px; letter-spacing: 3px; text-transform: uppercase;
+    color: var(--text-dim); font-weight: 600; padding-bottom: 12px;
+    border-bottom: 1px solid var(--border); margin-bottom: 0;
+    animation: fadeUp 0.7s cubic-bezier(0.16,1,0.3,1) 0.25s both;
+  }
+  .section-header span { color: var(--text-faint); font-weight: 400; }
+
+  /* Case cards */
+  .case-list { animation: fadeUp 0.6s cubic-bezier(0.16,1,0.3,1) 0.3s both; }
+
+  .case-card {
+    padding: 20px 0;
+    border-bottom: 1px solid var(--border);
+    transition: background 0.2s;
+  }
+  .case-card:hover { background: rgba(255,255,255,0.012); margin: 0 -12px; padding-left: 12px; padding-right: 12px; border-radius: 6px; }
+
+  .case-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 14px; }
+  .case-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px; font-weight: 700; color: var(--cream);
+    line-height: 1.25; transition: color 0.2s;
+  }
+  .case-card:hover .case-name { color: #fff; }
+  .case-name a { color: inherit; text-decoration: none; }
+  .case-name a:hover { text-decoration: underline; text-decoration-color: var(--gold-dim); text-underline-offset: 3px; }
+
+  .score-badge {
+    flex-shrink: 0; width: 34px; height: 34px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px; font-weight: 600;
+  }
+  .score-badge.s1 { background: rgba(255,255,255,0.05); color: var(--text-faint); }
+  .score-badge.s2 { background: var(--blue-bg); color: var(--blue); }
+  .score-badge.s3 { background: var(--yellow-bg); color: var(--yellow); }
+  .score-badge.s4 { background: var(--orange-bg); color: var(--orange); }
+  .score-badge.s5 { background: var(--red-bg); color: var(--red); }
+  .score-badge.s-none { background: rgba(255,255,255,0.03); color: var(--text-faint); }
+
+  .case-meta {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px; color: var(--text-dim); margin-top: 6px;
+    display: flex; gap: 12px; flex-wrap: wrap; letter-spacing: 0.2px;
+  }
+
+  .case-summary {
+    font-size: 14px; font-weight: 300; color: var(--text);
+    line-height: 1.7; margin-top: 10px;
+  }
+
+  .case-parties {
+    font-size: 11px; color: var(--text-dim); margin-top: 8px; line-height: 1.6;
+  }
+  .party-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px; letter-spacing: 1px; text-transform: uppercase;
+    color: var(--text-faint); font-weight: 600;
+  }
+
+  .case-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px; }
+  .tag {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px; letter-spacing: 0.5px;
+    padding: 3px 10px; border-radius: 4px;
+    background: var(--surface); color: var(--text-dim);
+    border: 1px solid var(--border);
+  }
+  .tag.watched { background: var(--gold-glow); color: var(--gold); border-color: rgba(212,170,79,0.15); }
+  .tag.ai-tag { background: rgba(96,165,250,0.06); color: var(--blue); border-color: rgba(96,165,250,0.12); }
+  .tag.theme { background: var(--green-bg); color: var(--green); border-color: rgba(52,211,153,0.15); }
+
+  /* Empty state */
+  .empty-state { text-align: center; padding: 60px 20px; }
+  .empty-state h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px; color: var(--cream-dim); margin-bottom: 8px;
+  }
+  .empty-state p { font-size: 13px; color: var(--text-dim); }
+
+  /* Footer */
+  .page-footer { margin-top: 48px; animation: fadeUp 0.6s cubic-bezier(0.16,1,0.3,1) 0.5s both; }
+  .footer-sep { display: flex; align-items: center; gap: 16px; margin-bottom: 18px; }
+  .footer-sep .line { flex: 1; height: 1px; background: var(--border); }
+  .footer-sep .diamond { width: 5px; height: 5px; background: var(--gold); transform: rotate(45deg); opacity: 0.3; }
+  .footer-text {
+    text-align: center; font-size: 10px; color: var(--text-dim);
+    letter-spacing: 2.5px; text-transform: uppercase; font-weight: 500; line-height: 2;
+  }
+  .footer-text a { color: var(--text-dim); text-decoration: none; }
+  .footer-text a:hover { color: var(--gold); }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* Responsive */
+  @media (max-width: 640px) {
+    .page { padding: 24px 14px 80px; }
+    .masthead-title { font-size: 38px; }
+    .stats-row { grid-template-columns: repeat(2, 1fr); }
+    .stat-cell:nth-child(2) { border-right: none; }
+    .stat-cell:nth-child(1), .stat-cell:nth-child(2) { border-bottom: 1px solid var(--border); }
+    .case-name { font-size: 17px; }
+    .filters { gap: 8px; }
+    .filter-group { min-width: 100px; }
+    .filter-group.search { min-width: 100%; }
+  }
+</style>
+</head>
+<body>
+
+<div class="atmosphere">
+  <div class="atmo-orb atmo-1"></div>
+  <div class="atmo-orb atmo-2"></div>
+</div>
+<div class="grain"></div>
+
+<div class="page">
+
+  <div class="masthead">
+    <div class="bd-credit"><a href="https://businessden.com" target="_blank">A BusinessDen Production</a></div>
+    <div class="masthead-title">Colorado Business Lawsuits</div>
+    <div class="masthead-tagline">Federal court filings, filtered and summarized daily.</div>
+  </div>
+  <div class="diamond-sep">
+    <div class="line"></div><div class="diamond"></div><div class="line"></div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-cell">
+      <div class="stat-label">Total Cases</div>
+      <div class="stat-value" id="stat-total">—</div>
+    </div>
+    <div class="stat-cell">
+      <div class="stat-label">Last Run</div>
+      <div class="stat-value" id="stat-new">—</div>
+      <div class="stat-sub">new cases</div>
+    </div>
+    <div class="stat-cell">
+      <div class="stat-label">High Priority</div>
+      <div class="stat-value" id="stat-high">—</div>
+      <div class="stat-sub">score 4–5</div>
+    </div>
+    <div class="stat-cell">
+      <div class="stat-label">Updated</div>
+      <div class="stat-value" id="stat-updated" style="font-size:16px;">—</div>
+    </div>
+  </div>
+
+  <div class="filters">
+    <div class="filter-group search">
+      <div class="filter-label">Search</div>
+      <input type="text" class="filter-input" id="filter-search" placeholder="Party, case name, keyword…">
+    </div>
+    <div class="filter-group">
+      <div class="filter-label">Court</div>
+      <select class="filter-select" id="filter-court">
+        <option value="">All Courts</option>
+        <option value="cod">District</option>
+        <option value="cob">Bankruptcy</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <div class="filter-label">Date</div>
+      <select class="filter-select" id="filter-date">
+        <option value="">All Time</option>
+        <option value="7">7 Days</option>
+        <option value="30" selected>30 Days</option>
+        <option value="90">90 Days</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <div class="filter-label">Theme</div>
+      <select class="filter-select" id="filter-theme">
+        <option value="">All Themes</option>
+        <option value="homelessness">Homelessness</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <div class="filter-label">Min Score</div>
+      <div class="score-btns">
+        <button class="score-btn active" data-score="0">All</button>
+        <button class="score-btn" data-score="2">2+</button>
+        <button class="score-btn" data-score="3">3+</button>
+        <button class="score-btn" data-score="4">4+</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-header">Filings <span id="showing-count"></span></div>
+  <div class="case-list" id="case-list">
+    <div class="empty-state"><h2>Loading…</h2><p>Fetching case data.</p></div>
+  </div>
+
+  <div class="page-footer">
+    <div class="footer-sep">
+      <div class="line"></div><div class="diamond"></div><div class="line"></div>
+    </div>
+    <div class="footer-text">
+      Data from <a href="https://www.courtlistener.com" target="_blank">CourtListener / RECAP</a> by Free Law Project
+      <br>U.S. District &amp; Bankruptcy Courts of Colorado
+    </div>
+  </div>
+
+</div>
+
+<script>
+var allCases = [];
+var minScore = 0;
+
+fetch('lawsuit-data.json')
+  .then(function(r) { return r.json(); })
+  .then(function(data) {
+    allCases = data.cases || [];
+    updateStats(data);
+    renderCases();
+  })
+  .catch(function() {
+    document.getElementById('case-list').innerHTML =
+      '<div class="empty-state"><h2>No Data Yet</h2><p>The scraper hasn\'t run yet. Trigger the GitHub Action manually to populate.</p></div>';
+  });
+
+function updateStats(data) {
+  var meta = data.metadata || {};
+  document.getElementById('stat-total').textContent = allCases.length || '0';
+  document.getElementById('stat-new').textContent = meta.new_cases_this_run || '0';
+  var high = allCases.filter(function(c) { return (c.ai_score || 0) >= 4; }).length;
+  document.getElementById('stat-high').textContent = high;
+  if (data.last_updated) {
+    var d = new Date(data.last_updated);
+    document.getElementById('stat-updated').textContent = d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+  }
+}
+
+function renderCases() {
+  var list = document.getElementById('case-list');
+  var search = document.getElementById('filter-search').value.toLowerCase();
+  var court = document.getElementById('filter-court').value;
+  var dateRange = parseInt(document.getElementById('filter-date').value) || 0;
+  var theme = document.getElementById('filter-theme').value;
+  var now = new Date();
+  var cutoff = dateRange ? new Date(now - dateRange * 86400000) : null;
+
+  var filtered = allCases.filter(function(c) {
+    if (minScore > 0 && (c.ai_score || 0) < minScore) return false;
+    if (court && c.court_id !== court) return false;
+    if (theme && !(c.themes || []).includes(theme)) return false;
+    if (cutoff && c.date_filed) { if (new Date(c.date_filed) < cutoff) return false; }
+    if (search) {
+      var h = [c.case_name, c.docket_number, c.nature_of_suit, c.cause, c.summary]
+        .concat((c.parties || []).map(function(p) { return p.name; }))
+        .concat(c.ai_tags || [])
+        .concat(c.filter_reasons || [])
+        .join(' ').toLowerCase();
+      if (h.indexOf(search) === -1) return false;
+    }
+    return true;
+  });
+
+  document.getElementById('showing-count').textContent = '· ' + filtered.length + ' shown';
+
+  if (filtered.length === 0) {
+    list.innerHTML = '<div class="empty-state"><h2>No Cases Match</h2><p>Adjust filters or wait for new data.</p></div>';
+    return;
+  }
+
+  list.innerHTML = filtered.map(renderCard).join('');
+}
+
+function renderCard(c) {
+  var score = c.ai_score || 0;
+  var scoreClass = score ? 's' + score : 's-none';
+  var clUrl = c.absolute_url ? 'https://www.courtlistener.com' + c.absolute_url : '#';
+
+  var plaintiffs = (c.parties || []).filter(function(p) { return /plaintiff/i.test(p.type); }).map(function(p) { return p.name; }).slice(0, 3);
+  var defendants = (c.parties || []).filter(function(p) { return /defendant/i.test(p.type); }).map(function(p) { return p.name; }).slice(0, 3);
+
+  var partiesHtml = '';
+  if (plaintiffs.length || defendants.length) {
+    partiesHtml = '<div class="case-parties">';
+    if (plaintiffs.length) partiesHtml += '<span class="party-label">Plaintiff</span> ' + esc(plaintiffs.join(', '));
+    if (plaintiffs.length && defendants.length) partiesHtml += ' &nbsp;·&nbsp; ';
+    if (defendants.length) partiesHtml += '<span class="party-label">Defendant</span> ' + esc(defendants.join(', '));
+    partiesHtml += '</div>';
+  }
+
+  var tags = (c.ai_tags || []).map(function(t) { return '<span class="tag ai-tag">' + esc(t) + '</span>'; });
+  var watchedReasons = (c.filter_reasons || []).filter(function(r) { return r.indexOf('Watched') === 0; });
+  watchedReasons.forEach(function(r) { tags.unshift('<span class="tag watched">' + esc(r.replace('Watched entity: ', '')) + '</span>'); });
+  var themeNames = { homelessness: 'Homelessness' };
+  (c.themes || []).forEach(function(t) { tags.unshift('<span class="tag theme">' + esc(themeNames[t] || t) + '</span>'); });
+
+  var courtShort = c.court_id === 'cob' ? 'Bankruptcy' : 'District';
+
+  return '<div class="case-card">' +
+    '<div class="case-top">' +
+      '<div class="case-name"><a href="' + clUrl + '" target="_blank">' + esc(c.case_name || 'Unknown') + '</a></div>' +
+      '<div class="score-badge ' + scoreClass + '">' + (score || '—') + '</div>' +
+    '</div>' +
+    '<div class="case-meta">' +
+      '<span>' + esc(c.docket_number || '') + '</span>' +
+      '<span>' + courtShort + '</span>' +
+      '<span>' + esc(c.date_filed || '') + '</span>' +
+      (c.nature_of_suit ? '<span>' + esc(c.nature_of_suit) + '</span>' : '') +
+      (c.assigned_to_str ? '<span>Judge ' + esc(c.assigned_to_str) + '</span>' : '') +
+    '</div>' +
+    (c.summary ? '<div class="case-summary">' + esc(c.summary) + '</div>' : '') +
+    partiesHtml +
+    (tags.length ? '<div class="case-tags">' + tags.join('') + '</div>' : '') +
+  '</div>';
+}
+
+function esc(s) {
+  if (!s) return '';
+  var d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+document.getElementById('filter-search').addEventListener('input', debounce(renderCases, 200));
+document.getElementById('filter-court').addEventListener('change', renderCases);
+document.getElementById('filter-date').addEventListener('change', renderCases);
+document.getElementById('filter-theme').addEventListener('change', renderCases);
+
+document.querySelectorAll('.score-btn').forEach(function(btn) {
+  btn.addEventListener('click', function() {
+    document.querySelectorAll('.score-btn').forEach(function(b) { b.classList.remove('active'); });
+    btn.classList.add('active');
+    minScore = parseInt(btn.dataset.score);
+    renderCases();
+  });
+});
+
+function debounce(fn, ms) {
+  var t;
+  return function() { clearTimeout(t); t = setTimeout(fn, ms); };
+}
+</script>
+
+</body>
+</html>

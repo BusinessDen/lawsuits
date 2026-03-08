@@ -1,0 +1,1127 @@
+[
+  "Arrow Electronics",
+  "Newmont",
+  "Ball Corporation",
+  "DaVita",
+  "Molson Coors",
+  "VF Corporation",
+  "Ovintiv",
+  "QVC Group",
+  "Qurate Retail",
+  "Chipotle",
+  "Western Union",
+  "Palantir",
+  "Liberty Media",
+  "Liberty Global",
+  "Liberty TripAdvisor",
+  "Liberty Broadband",
+  {
+    "name": "Liberty Live",
+    "associated_with": "John Malone"
+  },
+  "Dish Network",
+  "EchoStar",
+  "Civitas Resources",
+  "SM Energy",
+  "Antero Resources",
+  "Whiting Petroleum",
+  "PDC Energy",
+  "Bonanza Creek",
+  "Extraction Oil",
+  "SRC Energy",
+  "HighPoint Resources",
+  "Xcel Energy",
+  "Atmos Energy",
+  "ConocoPhillips",
+  "Royal Gold",
+  "Coeur Mining",
+  "Freeport-McMoRan",
+  "Newcrest Mining",
+  "SSR Mining",
+  "Gold Standard Ventures",
+  "Ibotta",
+  "Guild Education",
+  "Ping Identity",
+  "SendGrid",
+  "Boom Supersonic",
+  "Evolvent Technologies",
+  "Trimble",
+  "IHS Markit",
+  "Vertafore",
+  "Conga",
+  "GoSpotCheck",
+  "Wunder Capital",
+  "Pax8",
+  "Faction",
+  "Havenly",
+  "Blinker",
+  "Pop Culture",
+  "LogRhythm",
+  "Webroot",
+  {
+    "name": "TTEC Holdings",
+    "associated_with": "Kenneth Tuchman"
+  },
+  {
+    "name": "TTEC",
+    "associated_with": "Kenneth Tuchman"
+  },
+  "Zayo Group",
+  "Lumen Technologies",
+  "CenturyLink",
+  "Maxar Technologies",
+  "Lockheed Martin",
+  "Ball Aerospace",
+  "Raytheon",
+  "Northrop Grumman",
+  "Sierra Nevada Corporation",
+  "United Launch Alliance",
+  "ULA",
+  "Vectrus",
+  "RE/SPEC",
+  "Woodward",
+  "Johns Manville",
+  "UCHealth",
+  "Denver Health",
+  "SCL Health",
+  "Centura Health",
+  "CommonSpirit Health",
+  "Kaiser Permanente",
+  "Children's Hospital Colorado",
+  "National Jewish Health",
+  "Craig Hospital",
+  "Corden Pharma",
+  "Bolder BioTechnology",
+  "Biodesix",
+  "Cerapedics",
+  "Array BioPharma",
+  "MiMedx",
+  "Zynex Medical",
+  "InDevR",
+  "SomaLogic",
+  "Heska",
+  "FirstBank",
+  "Bellco Credit Union",
+  "CoBank",
+  "Great Western Bank",
+  "Vectra Bank",
+  "Alpine Bank",
+  "ANB Bank",
+  "Glacier Bancorp",
+  "National Western Financial",
+  "Guild Mortgage",
+  "Cherry Creek Mortgage",
+  "Ent Credit Union",
+  "Elevations Credit Union",
+  "Premier Members Credit Union",
+  "Canvas Credit Union",
+  "Blue Federal Credit Union",
+  "Credit Union of Colorado",
+  {
+    "name": "Janus Henderson",
+    "associated_with": "Thomas Bailey"
+  },
+  "ICON",
+  "Charles Schwab",
+  "Oppenheimer",
+  "Great-West Lifeco",
+  "Western & Southern Financial",
+  "Mercer Advisors",
+  "Koelbel",
+  "McWhinney",
+  "East West Partners",
+  "Confluence Companies",
+  "Kentwood Real Estate",
+  "RE/MAX",
+  "NAVA Real Estate",
+  "Formativ",
+  "Grays Development",
+  "Weins Development",
+  "Pauls Corporation",
+  "Revesco Properties",
+  "Westside Investment Partners",
+  "Shea Homes",
+  "Brookfield Properties",
+  "Hines",
+  "Unico Properties",
+  "CBRE",
+  "Newmark",
+  "JLL",
+  "Cushman & Wakefield",
+  "Alberta Development Partners",
+  "BMC Investments",
+  "Nichols Partnership",
+  "Continuum Partners",
+  "Prime West",
+  "Fulenwider",
+  "Mortenson",
+  "Catamount Constructors",
+  "Saunders Construction",
+  "Haselden Construction",
+  "Hensel Phelps",
+  "Kiewit",
+  "PCL Construction",
+  "GE Johnson",
+  "Vail Resorts",
+  "Alterra Mountain",
+  "Breckenridge Grand Vacations",
+  "Stonebridge Companies",
+  "Sage Hospitality",
+  "White Lodging",
+  "Four Seasons Denver",
+  "Kimpton Hotels",
+  "Hyatt Regency Denver",
+  "Limelight Hotels",
+  "Aspen Skiing Company",
+  "Leprino Foods",
+  "JBS USA",
+  "Pilgrim's Pride",
+  "Molson Coors Beverage",
+  "New Belgium Brewing",
+  "Great Divide Brewing",
+  "Odell Brewing",
+  "Left Hand Brewing",
+  "Oskar Blues",
+  "Breckenridge Brewery",
+  "Denver Beer Co",
+  "Ratio Beerworks",
+  "Celestial Seasonings",
+  "Noosa Yoghurt",
+  "Justin's",
+  "Bobo's Oat Bars",
+  "Snooze",
+  "Good Times Restaurants",
+  "Noodles & Company",
+  "Smashburger",
+  "Qdoba",
+  "Einstein Bros",
+  "Illegal Pete's",
+  "Garbanzo Mediterranean",
+  "MAD Greens",
+  "Cholaca",
+  "Bhakti Chai",
+  "Crocs",
+  "OtterBox",
+  "Never Summer",
+  "Spyder",
+  "SmartWool",
+  "Osprey Packs",
+  "Sea to Summit",
+  "Big Agnes",
+  "NREL",
+  "Cotopaxi",
+  "Eagle Claw",
+  "Water Pik",
+  {
+    "name": "CoorsTek",
+    "associated_with": "Coors Family"
+  },
+  "Mile High Labs",
+  "Charlotte's Web",
+  "Bota Box",
+  "Natural Grocers",
+  "King Soopers",
+  "Kroger",
+  "Denver Broncos",
+  "Colorado Rockies",
+  "Colorado Avalanche",
+  "Denver Nuggets",
+  "Colorado Rapids",
+  "Colorado Mammoth",
+  "Kroenke Sports",
+  "Kroenke",
+  "Anschutz",
+  "AEG",
+  "Anschutz Entertainment",
+  "Dick's Sporting Goods Park",
+  "Empower Field",
+  "Ball Arena",
+  "Coors Field",
+  "Pepsi Center",
+  "Pikes Peak International",
+  "Bellco Theatre",
+  "Philip Anschutz",
+  "Stan Kroenke",
+  "Pat Bowlen",
+  "Charlie Ergen",
+  "Kent Thiry",
+  "John Malone",
+  "Bill Daniels",
+  "Larry Mizel",
+  "Rob Walton",
+  "Greg Penner",
+  "University of Colorado",
+  "University of Denver",
+  "Colorado State University",
+  "Metropolitan State University",
+  "Regis University",
+  "Colorado School of Mines",
+  "CU Anschutz",
+  "National Western Center",
+  "Denver Post",
+  "Denver Gazette",
+  "Colorado Sun",
+  "9News",
+  "Denver7",
+  "Colorado Public Radio",
+  "Westword",
+  "BusinessDen",
+  "Scripps",
+  "Tegna",
+  "iHeartMedia",
+  "Frontier Airlines",
+  "Western Express",
+  "Swift Transportation",
+  "RTD",
+  "Denver International Airport",
+  "DIA",
+  "United Airlines",
+  "Southwest Airlines",
+  "Charlotte's Web Holdings",
+  "Schwazze",
+  "Medicine Man Technologies",
+  "LivWell",
+  "Native Roots",
+  "Green Thumb Industries",
+  "The Green Solution",
+  "Lightshade",
+  "Terrapin Care Station",
+  "Denver Art Museum",
+  "Denver Museum of Nature and Science",
+  "Denver Zoo",
+  "Denver Botanic Gardens",
+  "Colorado Convention Center",
+  "Denver Center for the Performing Arts",
+  "DCPA",
+  "Denver Water",
+  "PERA",
+  "Colorado PERA",
+  "Brownstein Hyatt",
+  "Davis Graham & Stubbs",
+  "Holland & Hart",
+  "Sherman & Howard",
+  "Hogan Lovells",
+  "Wheeler Trigg O'Donnell",
+  "Faegre Drinker",
+  "Polsinelli",
+  "Greenberg Traurig",
+  "Gibson Dunn",
+  "Cooley",
+  "Otten Johnson",
+  "Dorsey & Whitney",
+  "Snell & Wilmer",
+  "Perkins Coie",
+  "Messner Reeves",
+  "Jones & Keller",
+  "Bartlit Beck",
+  "Ireland Stapleton",
+  "Moye White",
+  {
+    "name": "Foundry Group",
+    "associated_with": "Brad Feld / Jason Mendelson"
+  },
+  "Foundry",
+  "Access Venture Partners",
+  "Boulder Ventures",
+  "Sequel Venture Partners",
+  "FirstMile Ventures",
+  {
+    "name": "Techstars",
+    "associated_with": "Jared Polis / David Cohen"
+  },
+  "Techstars Boulder",
+  "Moxxie Ventures",
+  "Stout Street Capital",
+  "Ridgeline Ventures",
+  "Energize Ventures",
+  "High Country Venture",
+  "Telescope Partners",
+  "Colorado Impact Fund",
+  "Greenmont Capital",
+  "Bigfoot Capital",
+  "Appian Ventures",
+  {
+    "name": "S-Cubed Capital",
+    "associated_with": "Mark Stevens"
+  },
+  "Break Trail Ventures",
+  "Vista Ventures",
+  "LabStart",
+  "Boomtown Accelerator",
+  "Boomtown Boulder",
+  "KSL Capital Partners",
+  "KSL Capital",
+  "Bow River Capital",
+  "Rubicon Technology Partners",
+  "Platte River Equity",
+  "Mountaingate Capital",
+  "KRG Capital Partners",
+  "KRG Capital",
+  "Meritage Funds",
+  "Delta-v Capital",
+  "Stage Fund",
+  "High Altitude Investors",
+  "Anschutz Investment Group",
+  "Anschutz Corporation",
+  "Stryker Family Office",
+  "Magness Family",
+  "Ergen Family",
+  "Malone Family",
+  "Mizel Family",
+  {
+    "name": "MDC Holdings",
+    "associated_with": "Larry Mizel"
+  },
+  "Walton Penner Family",
+  "Walton Family",
+  "Liberty Interactive",
+  "Liberty Ventures",
+  "Cargill MacMillan",
+  "MacMillan Family",
+  "Leprino Family",
+  "Galvanize",
+  "Catalyst HTI",
+  "Innosphere Ventures",
+  "Innosphere",
+  "Denver Startup Week",
+  "Boomtown",
+  "MergeLane",
+  "Rockies Venture Club",
+  "Colorado Technology Association",
+  "Venture Partners at CU Boulder",
+  "CU Innovation",
+  "Red Canary",
+  "Inspirato",
+  "FullContact",
+  "Particle",
+  "Gusto",
+  "Sweater",
+  "Momentum IoT",
+  "GHX",
+  "Global Healthcare Exchange",
+  "DispatchHealth",
+  "Cherwell Software",
+  "Evolvent",
+  "OnDeck",
+  "Floify",
+  "Zen Planner",
+  "ReadyTalk",
+  "Rally Software",
+  "TradeGlobal",
+  "PopSockets",
+  "MadWire",
+  "Craftsy",
+  "Welltok",
+  "Envision Pharma",
+  "Spectralink",
+  "SambaSafety",
+  "Convercent",
+  "Mark Stevens",
+  "Pat Stryker",
+  "Charles Ergen",
+  "James Leprino",
+  "Kenneth Tuchman",
+  "Ken Tuchman",
+  "Stewart Butterfield",
+  "Cargill MacMillan III",
+  "William MacMillan",
+  "Gary Magness",
+  "Thomas Bailey",
+  "Jessica Malone",
+  "Ann Walton Kroenke",
+  "Beth Bowlen Wallace",
+  "Brittany Bowlen",
+  "Brad Feld",
+  "Jason Mendelson",
+  "David Cohen",
+  "Jared Polis",
+  "Bob Magness",
+  "Phil DiStefano",
+  "Bruce Benson",
+  "Hank Brown",
+  "Dick Monfort",
+  "Charlie Monfort",
+  "Joe Lacob",
+  "Peter Coors",
+  "Pete Coors",
+  "Don Henley",
+  "Tom Tancredo",
+  "Joel Quackenbush",
+  "Laura Spitz",
+  "Lew Cohn",
+  "John Elway",
+  "Peyton Manning",
+  "Von Miller",
+  "Chauncey Billups",
+  "Carmelo Anthony",
+  "Josh Kroenke",
+  "Sam Zell",
+  "Neil Siegel",
+  "David Bonderman",
+  "Steve Farber",
+  "Eric Groussman",
+  "Al Yates",
+  "Mike Shanahan",
+  "Sean Payton",
+  "Larry Finkelstein",
+  "Broe Group",
+  "Broe Real Estate",
+  "Zocalo Community Development",
+  "Urban Villages",
+  "Corum Real Estate",
+  "Shea Properties",
+  "Elevation Development",
+  "Mile High Development",
+  {
+    "name": "Anschutz Company",
+    "associated_with": "Philip Anschutz"
+  },
+  {
+    "name": "Anschutz Exploration",
+    "associated_with": "Philip Anschutz"
+  },
+  {
+    "name": "Anschutz Exploration Corporation",
+    "associated_with": "Philip Anschutz"
+  },
+  {
+    "name": "Anschutz Investment Company",
+    "associated_with": "Philip Anschutz"
+  },
+  {
+    "name": "Anschutz Mining",
+    "associated_with": "Philip Anschutz"
+  },
+  {
+    "name": "Anschutz Foundation",
+    "associated_with": "Philip Anschutz"
+  },
+  {
+    "name": "AEG Presents",
+    "associated_with": "Philip Anschutz"
+  },
+  {
+    "name": "AEG Sports",
+    "associated_with": "Philip Anschutz"
+  },
+  {
+    "name": "AEG Worldwide",
+    "associated_with": "Philip Anschutz"
+  },
+  {
+    "name": "AXS.com",
+    "associated_with": "Philip Anschutz"
+  },
+  {
+    "name": "Xanterra",
+    "associated_with": "Philip Anschutz"
+  },
+  {
+    "name": "Xanterra Travel Collection",
+    "associated_with": "Philip Anschutz"
+  },
+  {
+    "name": "Clarity Media Group",
+    "associated_with": "Philip Anschutz"
+  },
+  {
+    "name": "Washington Examiner",
+    "associated_with": "Philip Anschutz"
+  },
+  {
+    "name": "Walden Media",
+    "associated_with": "Philip Anschutz"
+  },
+  {
+    "name": "Bristol Bay Productions",
+    "associated_with": "Philip Anschutz"
+  },
+  {
+    "name": "Anschutz Film Group",
+    "associated_with": "Philip Anschutz"
+  },
+  {
+    "name": "Regal Entertainment",
+    "associated_with": "Philip Anschutz"
+  },
+  {
+    "name": "Ken Ehrlich Productions",
+    "associated_with": "Philip Anschutz"
+  },
+  {
+    "name": "Broadmoor Hotel",
+    "associated_with": "Philip Anschutz"
+  },
+  {
+    "name": "The Broadmoor",
+    "associated_with": "Philip Anschutz"
+  },
+  {
+    "name": "Windstar Cruises",
+    "associated_with": "Philip Anschutz"
+  },
+  {
+    "name": "Circle A Drilling",
+    "associated_with": "Philip Anschutz"
+  },
+  {
+    "name": "LA Galaxy",
+    "associated_with": "Philip Anschutz"
+  },
+  {
+    "name": "Los Angeles Kings",
+    "associated_with": "Philip Anschutz"
+  },
+  {
+    "name": "Liberty Formula One",
+    "associated_with": "John Malone"
+  },
+  {
+    "name": "Liberty Latin America",
+    "associated_with": "John Malone"
+  },
+  {
+    "name": "Tele-Communications Inc",
+    "associated_with": "John Malone"
+  },
+  {
+    "name": "TCI",
+    "associated_with": "John Malone"
+  },
+  {
+    "name": "Silver Spur Ranches",
+    "associated_with": "John Malone"
+  },
+  {
+    "name": "Silver Spur Ranch",
+    "associated_with": "John Malone"
+  },
+  {
+    "name": "Malone Family Foundation",
+    "associated_with": "John Malone"
+  },
+  {
+    "name": "Harmony Sporthorses",
+    "associated_with": "John Malone / Leslie Malone"
+  },
+  {
+    "name": "Evan Malone",
+    "associated_with": "John Malone"
+  },
+  {
+    "name": "Greg Maffei",
+    "associated_with": "John Malone / Liberty Media"
+  },
+  {
+    "name": "Robert Bennett",
+    "associated_with": "John Malone / Liberty Media"
+  },
+  {
+    "name": "Dob Bennett",
+    "associated_with": "John Malone / Liberty Media"
+  },
+  {
+    "name": "Charter Communications",
+    "associated_with": "John Malone"
+  },
+  {
+    "name": "Sirius XM",
+    "associated_with": "John Malone / Liberty Media"
+  },
+  {
+    "name": "SiriusXM",
+    "associated_with": "John Malone / Liberty Media"
+  },
+  {
+    "name": "Atlanta Braves",
+    "associated_with": "John Malone / Liberty Media"
+  },
+  {
+    "name": "Formula One Group",
+    "associated_with": "John Malone / Liberty Media"
+  },
+  {
+    "name": "Warner Bros. Discovery",
+    "associated_with": "John Malone"
+  },
+  {
+    "name": "Discovery Communications",
+    "associated_with": "John Malone"
+  },
+  {
+    "name": "CableLabs",
+    "associated_with": "John Malone"
+  },
+  {
+    "name": "LiveNation",
+    "associated_with": "John Malone / Liberty Media"
+  },
+  {
+    "name": "Live Nation",
+    "associated_with": "John Malone / Liberty Media"
+  },
+  {
+    "name": "Quint",
+    "associated_with": "John Malone / Liberty Media"
+  },
+  {
+    "name": "EchoStar Communications",
+    "associated_with": "Charles Ergen"
+  },
+  {
+    "name": "Sling TV",
+    "associated_with": "Charles Ergen"
+  },
+  {
+    "name": "Hughes Network Systems",
+    "associated_with": "Charles Ergen"
+  },
+  {
+    "name": "Boost Mobile",
+    "associated_with": "Charles Ergen"
+  },
+  {
+    "name": "Ergen Family Foundation",
+    "associated_with": "Charles Ergen"
+  },
+  {
+    "name": "Kroenke Sports Enterprises",
+    "associated_with": "Stan Kroenke"
+  },
+  {
+    "name": "KSE",
+    "associated_with": "Stan Kroenke"
+  },
+  {
+    "name": "Kroenke Arena Company",
+    "associated_with": "Stan Kroenke"
+  },
+  {
+    "name": "Kroenke Real Estate",
+    "associated_with": "Stan Kroenke"
+  },
+  {
+    "name": "THF Realty",
+    "associated_with": "Stan Kroenke"
+  },
+  {
+    "name": "Walmart Stores",
+    "associated_with": "Stan Kroenke / Ann Walton Kroenke"
+  },
+  {
+    "name": "Arsenal Football Club",
+    "associated_with": "Stan Kroenke"
+  },
+  {
+    "name": "Los Angeles Rams",
+    "associated_with": "Stan Kroenke"
+  },
+  {
+    "name": "SoFi Stadium",
+    "associated_with": "Stan Kroenke"
+  },
+  {
+    "name": "Altitude Sports",
+    "associated_with": "Stan Kroenke"
+  },
+  {
+    "name": "Altitude TV",
+    "associated_with": "Stan Kroenke"
+  },
+  {
+    "name": "Leprino Foods Company",
+    "associated_with": "James Leprino"
+  },
+  {
+    "name": "Leprino Family Foundation",
+    "associated_with": "James Leprino"
+  },
+  {
+    "name": "Leprino Family Office",
+    "associated_with": "James Leprino"
+  },
+  {
+    "name": "Stryker Corporation",
+    "associated_with": "Pat Stryker"
+  },
+  {
+    "name": "Bohemian Foundation",
+    "associated_with": "Pat Stryker"
+  },
+  {
+    "name": "Bohemian Companies",
+    "associated_with": "Pat Stryker"
+  },
+  {
+    "name": "TeleTech",
+    "associated_with": "Kenneth Tuchman"
+  },
+  {
+    "name": "Tuchman Family",
+    "associated_with": "Kenneth Tuchman"
+  },
+  {
+    "name": "Richmond American Homes",
+    "associated_with": "Larry Mizel"
+  },
+  {
+    "name": "Richmond American",
+    "associated_with": "Larry Mizel"
+  },
+  {
+    "name": "HomeAmerican Mortgage",
+    "associated_with": "Larry Mizel"
+  },
+  {
+    "name": "Mizel Family Foundation",
+    "associated_with": "Larry Mizel"
+  },
+  {
+    "name": "Magness Land & Cattle",
+    "associated_with": "Gary Magness"
+  },
+  {
+    "name": "Magness Arena",
+    "associated_with": "Magness Family"
+  },
+  {
+    "name": "Magness Properties",
+    "associated_with": "Gary Magness"
+  },
+  {
+    "name": "Slack Technologies",
+    "associated_with": "Stewart Butterfield"
+  },
+  {
+    "name": "Flickr",
+    "associated_with": "Stewart Butterfield"
+  },
+  {
+    "name": "Sequoia Capital",
+    "associated_with": "Mark Stevens"
+  },
+  {
+    "name": "Cargill",
+    "associated_with": "Cargill MacMillan family"
+  },
+  {
+    "name": "Cargill Inc",
+    "associated_with": "Cargill MacMillan family"
+  },
+  {
+    "name": "Janus Capital",
+    "associated_with": "Thomas Bailey"
+  },
+  {
+    "name": "Janus Henderson Investors",
+    "associated_with": "Thomas Bailey"
+  },
+  {
+    "name": "Walton-Penner Group",
+    "associated_with": "Rob Walton / Greg Penner"
+  },
+  {
+    "name": "Penner Family",
+    "associated_with": "Greg Penner"
+  },
+  {
+    "name": "Walmart",
+    "associated_with": "Rob Walton"
+  },
+  {
+    "name": "Elway Dealerships",
+    "associated_with": "John Elway"
+  },
+  {
+    "name": "John Elway Dealerships",
+    "associated_with": "John Elway"
+  },
+  {
+    "name": "Elway's Restaurant",
+    "associated_with": "John Elway"
+  },
+  {
+    "name": "ConAgra",
+    "associated_with": "Monfort Family"
+  },
+  {
+    "name": "Monfort of Colorado",
+    "associated_with": "Monfort Family"
+  },
+  {
+    "name": "Monfort Family Foundation",
+    "associated_with": "Monfort Family"
+  },
+  {
+    "name": "Coors Brewing",
+    "associated_with": "Coors Family"
+  },
+  {
+    "name": "ACX Technologies",
+    "associated_with": "Coors Family"
+  },
+  {
+    "name": "Coors Family Foundation",
+    "associated_with": "Coors Family"
+  },
+  {
+    "name": "ProFlowers",
+    "associated_with": "Jared Polis"
+  },
+  {
+    "name": "Polis Foundation",
+    "associated_with": "Jared Polis"
+  },
+  {
+    "name": "Benson Mineral Group",
+    "associated_with": "Bruce Benson"
+  },
+  {
+    "name": "Benson Properties",
+    "associated_with": "Bruce Benson"
+  },
+  {
+    "name": "Denver Homeless Out Loud",
+    "associated_with": "Homelessness advocacy"
+  },
+  {
+    "name": "DHOL",
+    "associated_with": "Homelessness advocacy"
+  },
+  {
+    "name": "Killmer Lane & Newman",
+    "associated_with": "Homelessness litigation"
+  },
+  {
+    "name": "Andy McNulty",
+    "associated_with": "Homelessness litigation attorney"
+  },
+  {
+    "name": "Jason Flores-Williams",
+    "associated_with": "Homelessness litigation attorney"
+  },
+  {
+    "name": "Right to Rest",
+    "associated_with": "Homelessness advocacy"
+  },
+  {
+    "name": "Lyall v. City of Denver",
+    "associated_with": "Homelessness litigation"
+  },
+  {
+    "name": "Metro Denver Homeless Initiative",
+    "associated_with": "Homelessness services"
+  },
+  {
+    "name": "MDHI",
+    "associated_with": "Homelessness services"
+  },
+  {
+    "name": "Pikes Peak Continuum of Care",
+    "associated_with": "Homelessness services"
+  },
+  {
+    "name": "Northern Colorado Continuum of Care",
+    "associated_with": "Homelessness services"
+  },
+  {
+    "name": "Colorado Coalition for the Homeless",
+    "associated_with": "Homelessness services"
+  },
+  {
+    "name": "Denver Rescue Mission",
+    "associated_with": "Homelessness services"
+  },
+  {
+    "name": "Urban Peak",
+    "associated_with": "Homelessness services / youth"
+  },
+  {
+    "name": "Samaritan House",
+    "associated_with": "Homelessness services"
+  },
+  {
+    "name": "Volunteers of America Colorado",
+    "associated_with": "Homelessness services"
+  },
+  {
+    "name": "Catholic Charities Denver",
+    "associated_with": "Homelessness services"
+  },
+  {
+    "name": "Catholic Charities of Denver",
+    "associated_with": "Homelessness services"
+  },
+  {
+    "name": "Salvation Army Denver",
+    "associated_with": "Homelessness services"
+  },
+  {
+    "name": "Family Tree",
+    "associated_with": "Homelessness services"
+  },
+  {
+    "name": "Family Promise of Greater Denver",
+    "associated_with": "Homelessness services"
+  },
+  {
+    "name": "Bayaud Enterprises",
+    "associated_with": "Homelessness services / workforce"
+  },
+  {
+    "name": "The Gathering Place",
+    "associated_with": "Homelessness services"
+  },
+  {
+    "name": "The Delores Project",
+    "associated_with": "Homelessness services"
+  },
+  {
+    "name": "Comitis Crisis Center",
+    "associated_with": "Homelessness services"
+  },
+  {
+    "name": "Comitis",
+    "associated_with": "Homelessness services"
+  },
+  {
+    "name": "Sacred Heart House",
+    "associated_with": "Homelessness services"
+  },
+  {
+    "name": "Denver VOICE",
+    "associated_with": "Homelessness media/advocacy"
+  },
+  {
+    "name": "Haven of Hope",
+    "associated_with": "Homelessness services"
+  },
+  {
+    "name": "St. Francis Center",
+    "associated_with": "Homelessness services"
+  },
+  {
+    "name": "Colorado Village Collaborative",
+    "associated_with": "Homelessness services / safe outdoor spaces"
+  },
+  {
+    "name": "Mile High Behavioral Healthcare",
+    "associated_with": "Homelessness services / behavioral health"
+  },
+  {
+    "name": "Rocky Mountain Human Services",
+    "associated_with": "Homelessness services"
+  },
+  {
+    "name": "Denver Indian Center",
+    "associated_with": "Homelessness services"
+  },
+  {
+    "name": "Harm Reduction Action Center",
+    "associated_with": "Homelessness services"
+  },
+  {
+    "name": "Denver Navigation Campus",
+    "associated_with": "Homelessness shelter"
+  },
+  {
+    "name": "Stone Creek Shelter",
+    "associated_with": "Homelessness shelter"
+  },
+  {
+    "name": "Crossroads Shelter",
+    "associated_with": "Homelessness shelter"
+  },
+  {
+    "name": "Springs Rescue Mission",
+    "associated_with": "Homelessness services / CO Springs"
+  },
+  {
+    "name": "Homeward Pikes Peak",
+    "associated_with": "Homelessness services / CO Springs"
+  },
+  {
+    "name": "La Puente Home",
+    "associated_with": "Homelessness services / Alamosa"
+  },
+  {
+    "name": "Denver Department of Housing Stability",
+    "associated_with": "Homelessness government"
+  },
+  {
+    "name": "Department of Housing Stability",
+    "associated_with": "Homelessness government"
+  },
+  {
+    "name": "HOST",
+    "associated_with": "Homelessness government"
+  },
+  {
+    "name": "Denver Housing Authority",
+    "associated_with": "Homelessness / housing government"
+  },
+  {
+    "name": "Colorado Division of Housing",
+    "associated_with": "Homelessness government"
+  },
+  {
+    "name": "City and County of Denver",
+    "associated_with": "Government"
+  },
+  {
+    "name": "City of Aurora",
+    "associated_with": "Government"
+  },
+  {
+    "name": "City of Boulder",
+    "associated_with": "Government"
+  },
+  {
+    "name": "City of Colorado Springs",
+    "associated_with": "Government"
+  },
+  {
+    "name": "Arapahoe County",
+    "associated_with": "Government"
+  },
+  {
+    "name": "Jefferson County",
+    "associated_with": "Government"
+  },
+  {
+    "name": "Adams County",
+    "associated_with": "Government"
+  },
+  {
+    "name": "Douglas County",
+    "associated_with": "Government"
+  },
+  {
+    "name": "Mercy Housing",
+    "associated_with": "Affordable housing"
+  },
+  {
+    "name": "Colorado Housing and Finance Authority",
+    "associated_with": "Affordable housing"
+  },
+  {
+    "name": "CHFA",
+    "associated_with": "Affordable housing"
+  },
+  {
+    "name": "Denver Urban Renewal Authority",
+    "associated_with": "Housing / urban renewal"
+  },
+  {
+    "name": "DURA",
+    "associated_with": "Housing / urban renewal"
+  },
+  {
+    "name": "Mike Johnston",
+    "associated_with": "Denver Mayor / homelessness policy"
+  },
+  {
+    "name": "Mayor Johnston",
+    "associated_with": "Denver Mayor / homelessness policy"
+  }
+]
